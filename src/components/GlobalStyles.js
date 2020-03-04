@@ -38,7 +38,7 @@ export const GlobalStyles = createGlobalStyle`
     font-size: 19px;
     font-weight: 400;
     height: 100%;
-    padding-top: 20vh;
+    padding-top: 10vh;
 
   @media (max-width: ${BREAKPOINT}px) {
       font-size: 17px;
@@ -46,11 +46,21 @@ export const GlobalStyles = createGlobalStyle`
     }
   }
 
+  img{
+    border-radius: 5%;
+    margin-bottom: 20px;
+  }
+
   div a {
     text-decoration: none;
     color: inherit;
     -webkit-tap-highlight-color: hsla(0, 0%, 0%, 0);
     -webkit-tap-highlight-color: transparent;
+  }
+
+  div a:hover {
+    text-decoration: underline;
+    cursor: pointer;
   }
 
   /* CSS Reset */
