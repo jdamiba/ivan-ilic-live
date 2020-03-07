@@ -69,6 +69,11 @@ const Home = ({ data }) => {
               <a href="https://mailtrack.io/trace/link/e97b851a96d9f5ab536177b2bd4cadbf9be269a8?url=https%3A%2F%2Fwww.stdavidshallcardiff.co.uk%2Fwhats-on%2Flunchtime-concerts-spring-2020%2Fivan-ili%25C4%2587%2F&userId=1068619&signature=592b41cfce63ed4c">Buy Tickets</a>
           </TextHome>
           <TextHome>
+              <h3>March 18 - Royal Welsh College of Music and Drama, Cardiff (2 - 5pm)</h3>
+              <img alt="a picture of St. David's Hall, Cardiff" loading="lazy" src="https://files-cjcvldep1.now.sh"/>
+             Open To The Public
+          </TextHome>
+          <TextHome>
               <h3>March 19 - St. George's, Bristol</h3>
               <img alt="a picture of St. George's, Bristol" loading="lazy" src="https://bristolopendoors.org.uk/wp-content/uploads/2018/07/St-Georges_3.jpg"/>
               <a href="https://mailtrack.io/trace/link/989464088a168d83d1ab21c975d6b9439c392327?url=https%3A%2F%2Fwww.stgeorgesbristol.co.uk%2Fevent%2Fivan-ilic%2F&userId=1068619&signature=d00b3e79624e05fa">Buy Tickets</a>
@@ -83,6 +88,7 @@ const Home = ({ data }) => {
               <img alt="a picture of Rhosygilwen, Pembrokeshire" loading="lazy" src="https://s3.eu-west-2.amazonaws.com/wedding-booker-uploaded-photos/prod/baa20424bb18a7c7939e34385ab6596a7c844b7ee592c63f16d80c5ce97595b2/Rhos2.jpg.jpg"/>
               <a href="https://mailtrack.io/trace/link/57007d5be301d3a5b62a847e01b069c5811c292d?url=https%3A%2F%2Frhosygilwen.co.uk%2Fevents%2Fivan-ilic-piano%2F&userId=1068619&signature=27c418d65de10045">Buy Tickets</a>
           </TextHome>
+          
         </Hero>
       </Layout>
     </>

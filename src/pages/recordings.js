@@ -71,6 +71,24 @@ const Recordings = ({ data }) => {
             </TextBody>
         </a>
         </div>
+
+        <div className="flexbox-col">
+        <img width="230px" alt="a picture of ivan Ilić" loading="lazy" src="https://files-doqueth5t.now.sh" />
+        <a href="https://www.amazon.com/Transcendentalist-Ivan-Ilic-2013-08-03/dp/B01KATCNHI/">
+            <TextBody>
+            The Transcendentalist
+            </TextBody>
+        </a>
+        </div>
+
+        <div className="flexbox-col">
+        <img width="230px" alt="a picture of ivan Ilić" loading="lazy" src="https://files-hjno6d4jb.now.sh" />
+        <a href="https://www.amazon.com/Ivan-Ilic-plays-Morton-Feldman/dp/B014LGRA6K/">
+            <TextBody>
+            Ivan Ilić plays Morton Feldman -  For Bunita Marcus
+            </TextBody>
+        </a>
+        </div>
         
         <Button href="mailto:bookivan@gmail.com">Get in touch!</Button>
       </Layout>
