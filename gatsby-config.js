@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Ivan Ilić Live`,
-    description: `A website for Ivan Ilic, the classical pianist.`,
+    description: `A website for Ivan Ilić, the classical pianist.`,
     siteUrl: `https://ivaniliclive.now.sh`,
   },
   plugins: [

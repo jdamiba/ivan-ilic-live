@@ -27,6 +27,12 @@ export const HeaderLogo = () => {
       <Link to="/about">
         <p>About</p>
       </Link>
+      <Link to="/videos">
+        <p>Videos</p>
+      </Link>
+      <Link to="/recordings">
+        <p>Recordings</p>
+      </Link>
     </HeaderWrapper>
   );
 };

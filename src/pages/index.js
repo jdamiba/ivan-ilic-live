@@ -55,7 +55,7 @@ const Home = ({ data }) => {
       <HeaderLogo />
       <Layout>
         <Hero>
-          <img alt="a picture of ivan ilic" loading="lazy" src="https://ivan.jdamiba.now.sh/ivan6.JPG"/>
+          <img alt="a picture of ivan Ilić" loading="lazy" src="https://ivan.jdamiba.now.sh/ivan6.JPG"/>
           <HeadingXL>
             2020 U.K. Tour
           </HeadingXL>

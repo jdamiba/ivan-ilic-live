@@ -33,6 +33,44 @@ export const Footer = () => {
       >
         Instagram
       </ButtonLink>
+      <ButtonLink
+        href="https://www.youtube.com/user/IvanCDGvideos"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        YouTube
+      </ButtonLink>
+      <ButtonLink
+        href="https://www.facebook.com/pages/Ivan-Ili%C4%87/190007957746747"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        FaceBook
+      </ButtonLink>
+      <ButtonLink
+        href="https://itunes.apple.com/us/artist/ivan-ilic/290009888"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Apple Music
+      </ButtonLink>
+      <ButtonLink
+        href="https://open.spotify.com/artist/1JHZMkw7gYzNtvDZ2L9M75"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Spotify
+      </ButtonLink>
+      <ButtonLink
+        href="https://tidal.com/browse/artist/3957331"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Tidal
+      </ButtonLink>
+      
+      
+      
     </Container>
   );
 };

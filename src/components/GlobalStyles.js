@@ -51,6 +51,34 @@ export const GlobalStyles = createGlobalStyle`
     margin-bottom: 20px;
   }
 
+  .flexbox{
+    display: flex;
+    margin-bottom: 20px;
+  }
+
+  .flexbox-col{
+    display: flex;
+    margin-bottom: 20px;
+    flex-direction: column;
+  }
+
+  a {
+    text-decoration: underline !important;
+  }
+
+  .flexbox > img, .flexbox-col > img {
+    margin: auto;
+  }
+
+  .flexbox-col > a{
+    text-align: center;
+  }
+
+  iframe{
+    margin: auto;
+    border-radius: 20px;
+  }
+
   div a {
     text-decoration: none;
     color: inherit;
@@ -96,7 +124,8 @@ export const GlobalStyles = createGlobalStyle`
   /* Make images easier to work with */
   img {
     display: block;
-    max-width: 100%;
+    max-width: 600px;
+    margin: auto;
   }
 
   /* Natural flow and rhythm in articles by default */
