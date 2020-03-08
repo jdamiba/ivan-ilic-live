@@ -46,14 +46,29 @@ export const GlobalStyles = createGlobalStyle`
     }
   }
 
-  img{
+  .concert-date{
+    font-size: 1.17em !important;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  .flexbox > div {
+    margin: auto !important;
+  }
+
+  img {
     border-radius: 5%;
-    margin-bottom: 20px;
+  }
+
+  .insta {
+    width: 100%;
+    max-height: 300px;
   }
 
   .flexbox{
     display: flex;
     margin-bottom: 20px;
+    max-width: 100%;
   }
 
   .flexbox-col{
@@ -126,6 +141,7 @@ export const GlobalStyles = createGlobalStyle`
     display: block;
     max-width: 600px;
     margin: auto;
+    margin-bottom: 20px;
   }
 
   @media (max-width: ${BREAKPOINT}px) {

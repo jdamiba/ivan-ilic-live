@@ -6,6 +6,7 @@ export default function HTML(props) {
     <html {...props.htmlAttributes}>
       <head>
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-120932216-2"></script>
+       
         <script
           dangerouslySetInnerHTML={{
             __html: `
