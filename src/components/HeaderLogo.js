@@ -7,6 +7,12 @@ import { BREAKPOINT } from '../utils/constants';
 
 const HeaderWrapper = styled(FixedBar)`
   justify-content: space-between;
+  @media (max-width: ${BREAKPOINT}px) {
+    padding-top: 30px;
+    p{
+      margin-right: 10px;
+    }
+  }
 `;
 
 const Logo = styled.p`

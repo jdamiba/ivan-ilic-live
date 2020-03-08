@@ -128,6 +128,13 @@ export const GlobalStyles = createGlobalStyle`
     margin: auto;
   }
 
+  @media (max-width: ${BREAKPOINT}px) {
+    img {
+      display: block;
+      max-width: 300px;
+    }
+  }
+
   /* Natural flow and rhythm in articles by default */
   article > * + * {
     margin-top: 1em;
