@@ -60,6 +60,10 @@ export const GlobalStyles = createGlobalStyle`
     border-radius: 5%;
   }
 
+  .center{
+    text-align: center;
+  }
+
   .insta {
     width: 100%;
     max-height: 300px;
