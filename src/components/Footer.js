@@ -68,9 +68,6 @@ export const Footer = () => {
       >
         Tidal
       </ButtonLink>
-      
-      
-      
     </Container>
   );
 };

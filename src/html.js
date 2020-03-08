@@ -1,12 +1,15 @@
-import React from "react"
-import PropTypes from "prop-types"
+import React from 'react';
+import PropTypes from 'prop-types';
 
 export default function HTML(props) {
   return (
     <html {...props.htmlAttributes}>
       <head>
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-120932216-2"></script>
-       
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=UA-120932216-2"
+        ></script>
+
         <script
           dangerouslySetInnerHTML={{
             __html: `
@@ -36,7 +39,7 @@ export default function HTML(props) {
         {props.postBodyComponents}
       </body>
     </html>
-  )
+  );
 }
 
 HTML.propTypes = {
@@ -46,4 +49,4 @@ HTML.propTypes = {
   preBodyComponents: PropTypes.array,
   body: PropTypes.string,
   postBodyComponents: PropTypes.array,
-}
+};

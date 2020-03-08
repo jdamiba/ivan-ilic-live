@@ -9,7 +9,7 @@ const HeaderWrapper = styled(FixedBar)`
   justify-content: space-between;
   @media (max-width: ${BREAKPOINT}px) {
     padding-top: 30px;
-    p{
+    p {
       margin-right: 10px;
     }
   }
